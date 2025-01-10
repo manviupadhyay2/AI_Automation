@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Load model once at startup
 model = load_model()
 
-@app.route('/predict', methods=['POST'])
+@app.route('/prediction', methods=['POST'])
 def handle_predict():
     if 'image' not in request.files:
         return jsonify({'error': 'No image provided'}), 400
