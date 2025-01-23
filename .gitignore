@@ -1,31 +1,4 @@
-# Ignore Python cache files
-__pycache__/
-*.py[cod]
-
-# Ignore virtual environment folder
-myenv/
-
-# Ignore macOS system files
-.DS_Store
-
-# Ignore logs and temporary files
-*.log
-*.tmp
-
-# Ignore environment files (optional)
+node_modules/
 .env
-
-# Ignore compiled files
-*.pyc
-*.pyo
-
-# Byte-compiled / optimized / DLL files
-*.so
-
-# Docker
-*.pid
-*.tar
-
-# VSCode/IDE config files (optional)
-.vscode/
-.idea/
+.env.local
+*.log
